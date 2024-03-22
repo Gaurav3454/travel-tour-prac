@@ -368,4 +368,59 @@ header.sticky {
 }
 .newsletter-content form input:first-child{
     padding: 15px;
+    background: #202020;
+    font-size: var(--p-font);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 3rem;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-box h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+.footer-box a{
+    font-size: 15px;
+    font-weight: 300;
+
+    color: var(--text-color);
+    transition: all .50s ease;
+}
+.footer-box a:hover{
+    transform: translateX(-5px);
+
+    color: var(--text-color);
+}
+.social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: #202020;
+    color: var(--text-color);
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+.social a:hover{
+    transform: translateX(-5px);
+    background-color: var(--main-color);
+}
+.copyright p{
+    text-align: center;
+    padding: 20px;
+    color: #979797;
+    font-size: 15px;
 }
