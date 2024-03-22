@@ -215,3 +215,57 @@ header.sticky{
 color: #ffffffab;
   margin-bottom: 35px;
 }
+
+.center-text{
+    text-align: center;
+}
+.center-text h2{
+    font-size: var(--h2-font);
+    font-weight: 800;
+}
+
+.tour-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    gap: 3rem;
+    align-items: center;
+    margin-top:5rem ;
+}
+.box{
+    position: relative;
+}
+.box img{
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(70%);
+    transition: all .3s cubic-bezier(.499,.05,.55,.95);
+    will-change: filter;
+    display: block;
+
+}
+.box img:hover{
+filter: brightness(90%) hue-rotate(50deg);
+transform: scale(1.04);
+cursor: pointer;
+}
+.box h6{
+    position: absolute;
+    left: 25px;
+    bottom: 85px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.box h4{
+    position: absolute;
+    left: 25px;
+    bottom: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.center-btn{
+    text-align: center;
+    margin-top: 40px;
+}
