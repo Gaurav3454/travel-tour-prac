@@ -7,7 +7,7 @@ window.addEventListener("scroll", function () {
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar')
 
-menu.onClick = () => {
-    menu.classList.toogle('bx-x');
-    navbar.classList.toogle('open')
-}
+menu.addEventListener('click', () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('open');
+});

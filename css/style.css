@@ -72,6 +72,7 @@ span {
 }
 
 .h-right a {
+ 
     vertical-align: middle;
     font-size: 20px;
     color: var(--text-color);
@@ -89,7 +90,7 @@ span {
 
 #menu-icon {
     color: var(--text-color);
-    font-size: 30ox;
+    font-size: 30px;
     cursor: pointer;
     z-index: 10001;
     display: none;
@@ -486,7 +487,7 @@ header.sticky {
     }
 
     .culture {
-        gap: 3rem
+        gap: 3rem;
     }
 
     #menu-icon {
@@ -517,7 +518,7 @@ header.sticky {
         font-weight: 400;
     }
 
-    .navbar .open {
+    .open {
         left: 0;
     }
 }
